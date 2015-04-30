@@ -1,3 +1,5 @@
 Initail text of file2 in master branch.
 
 Edited File2 while two other files are stashed.
+
+Version 2.0 chenges
