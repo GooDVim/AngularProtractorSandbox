@@ -1,0 +1,1 @@
+Initial state of file 1 in master branch.
