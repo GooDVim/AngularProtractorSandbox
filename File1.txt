@@ -1,3 +1,7 @@
 Initial state of file 1 in master branch.
 
 A second try to make changes.
+
+Stached changes.
+
+Ammended changes.
