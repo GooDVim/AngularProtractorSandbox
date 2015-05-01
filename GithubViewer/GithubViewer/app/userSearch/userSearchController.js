@@ -1,10 +1,10 @@
 ﻿(function () {
     angular.module('githubViewerApp')
-    .controller('useSearchController', ['$scope', '$location', githubController]);
+    .controller('userSearchController', ['$scope', '$location', userSearchController]);
 
     function userSearchController($scope, $location) {
-        function search() {
-            $location.path('/user/' + $scope.login);
+        $scope.search = function() {
+            $location.path('/users/' + $scope.login);
         }
     }
 })();

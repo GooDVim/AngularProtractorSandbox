@@ -67,17 +67,20 @@
   <ItemGroup>
     <Content Include="app\app.js" />
     <Content Include="app\githubService.js" />
+    <Content Include="app\userDetails\userDetailsView.html" />
+    <Content Include="app\userDetails\userDetailsController.js" />
     <Content Include="app\userSearch\userSearchController.js" />
     <Content Include="app\userSearch\userSearchView.html" />
+    <Content Include="content\css\site.css" />
+    <Content Include="content\js\angular-route.js" />
+    <Content Include="content\js\angular.js" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="app\userDetails\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

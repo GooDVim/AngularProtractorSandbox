@@ -9,14 +9,14 @@
         };
 
         function getUser(username) {
-            return $http.get('https://api.github.com/users/' + username, onUserSuccess);
+            return $http.get('https://api.github.com/users/' + username).then(onUserSuccess);
         };
 
         function onUserSuccess(response) {
             return response.data;
         };
 
-        function onRepo() {
+        function getRepo() {
 
         };
     };
